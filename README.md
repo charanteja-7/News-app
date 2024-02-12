@@ -6,8 +6,7 @@ https://charanteja-7.github.io/News-app/
 
 ⚠️site won't work as expected when API calls exceeds
 
-### Demo
-https://github.com/charanteja-7/News-app/assets/149792997/17f08387-3a29-439d-a498-986dd24a035a 
+
 
 ## Support
 
