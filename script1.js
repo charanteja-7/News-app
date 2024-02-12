@@ -65,7 +65,6 @@ function bindData(items){
 }
 
 function fillCardData(cloneCard,item){
-    console.log('in fill card',item);
     const newsImage = cloneCard.querySelector('#card-image');
     const newsTitle = cloneCard.querySelector('#news-title');
     const newssrc = cloneCard.querySelector('#news-source');
@@ -75,12 +74,8 @@ function fillCardData(cloneCard,item){
     newsImage.src = item.images.thumbnail;
     newsTitle.innerHTML = item.title;
     newsdesc.innerHTML=item.snippet;
-    const date = new Date(item.timestamp).toLocaleString("en-US",{
-        timeZone:"Asia/Jakarta"
-    })
-
-    newssrc.innerHTML = `${item.publisher} . ${date}`;
-
+    const date = new Date(item.timestamp*1000);
+    newssrc.innerHTML = `${item.publisher} . ${date.toLocaleString()}`;
     readitem.addEventListener('click',()=>{
         window.open(item.newsUrl,"_blank");
     })
