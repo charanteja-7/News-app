@@ -5,7 +5,7 @@
 https://charanteja-7.github.io/News-app/
 
 ⚠️site won't work as expected when API calls exceeds
-⭐Clone the project and switch the from script1.js to script.js to run in localhost
+⭐Clone the project and switch from script1.js to script.js to run in localhost for best results.
 
 
 ### Preview
