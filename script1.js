@@ -18,7 +18,7 @@ async function fetchNews(query){
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'f9cb18f503msha801c212bc43687p19a375jsn222e37393e44',
+            'X-RapidAPI-Key': 'YOUR_RAPPID_API_KEY',
             'X-RapidAPI-Host': 'google-news13.p.rapidapi.com'
         }
     };
